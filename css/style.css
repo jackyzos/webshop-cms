@@ -1,0 +1,1208 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*******************************************/
+/*                 Kund Sidan              */
+/*******************************************/
+
+
+#middle #rightside #produkt-list #kund-info th {
+        border: 1px solid black;
+        text-align: center;
+        background-color:  #CCCCCC;
+        padding: 5px;
+}
+#middle #rightside #produkt-list #kund-info td {
+        border: 1px solid black;
+        text-align: center;
+        padding: 5px;
+}
+#middle #rightside #produkt-list #kund-info table {
+        border-collapse: collapse;
+        width: 80%;
+        text-align: center;
+    margin-left: 60px;
+}
+/***********************************************************/
+/*                           SPRITES                       */
+/***********************************************************/
+.visa, .fb, .logo, .twitter, .master, .express, .insta, .cart, .trygg{
+	background-image: url(../img/sprites.png);
+    background-repeat: no-repeat;
+    display:inline-block;
+}
+
+.visa{
+	background-position: -2px -56px ;
+	width: 48px;
+	height: 30px;
+}
+
+.fb{
+	background-position: -51px 0;
+	width: 48px;
+	height: 48px;
+}
+
+.twitter{
+	background-position: -2px 0;
+	width: 48px;
+	height: 48px;
+}
+
+.logo{
+	background-position: 0px -132px ;
+	width: 200px;
+	height: 63px;
+}
+
+.master{
+	background-position: -103px -58px ;
+	width: 48px;
+	height: 30px;
+}
+
+.express{
+	background-position: -52px -57px ;
+	width: 48px;
+	height: 30px;
+}
+
+.insta{
+	background-position: -102px -1px ;
+	width: 48px;
+	height: 48px;
+}
+
+.cart{
+	background-position: -5px -91px ;
+	width: 30px;
+	height: 30px;
+}
+
+.trygg{
+	background-position: -38px -91px ;
+	width: 150px;
+	height: 35px;
+}
+
+body{
+    background-image: url("../img/bg.png");
+    background-repeat: repeat-x;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;   
+}
+#pagewrap{
+    width: 1000px;
+   	margin: 0 auto;
+    padding: 0px 5px 0px 5px;
+}
+/***********************************************************/
+/*                 Meny längs upp i hörna                  */
+/***********************************************************/
+#top-nav{
+    float: right;
+}
+#top-nav ul{
+    margin: 0;
+    padding: 0;    
+}
+#top-nav li{
+    display: inline-block;  
+    background: #ffffff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0 3px 0 3px;
+}   
+#top-nav li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;    
+}
+/*******************************************/
+/*                 HEADER                  */
+/*******************************************/
+header{
+    margin: 0;
+    padding: 10px 0 10px 0p;
+}
+#logo{
+    float: left;
+    margin: 25px 0px 0px 0px;
+}
+#search{
+    clear: right;
+    float: left;
+    margin-left: 30px;
+}
+#pagewrap .hidden{
+    display:none;
+}
+#search input[type=text] {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 15px 1px 0 0;
+    display: inline-block;
+    border: 2px solid #666;
+    box-sizing: border-box;
+    height: 50px;
+    -webkit-appearance: none; /* denna är för safari för alla input och select ska ha sama storleken*/
+}
+#search input[type=submit] {
+    width: 100px;
+    background-color: #00334E;
+    color: white;
+    padding: 14px 20px;
+    margin: 15px 2px 10px -3px;
+    border: 2px solid #666;
+    cursor: pointer;
+    height: 50px;
+}
+.text-_price{color:red}
+#live_results {
+    background-color: #fff;
+    border-bottom: 1px solid #000000;
+    left: -100px;
+    list-style-type: none;
+    margin: 0;
+    min-width: 250px;
+    padding: 15px;
+
+}
+#header-cart{
+    width: 215px;
+    float: right;
+    padding-top: 15px; 
+}
+#header-cart img{
+    float: left;
+    margin-top: 1px;
+}
+#header-cart .kundvagn-title{
+    float: right;
+    margin: 0;
+}
+#header-cart a{
+    text-decoration: none;
+    font-size: 21px;
+    color: black;
+}
+
+#header-cart .kundvagn-text{
+    clear: both;
+    float: right;
+    margin: -5px 50px 0px 0px;
+    font-size: 13px;
+    color: #CCCCCC;
+}
+/*********************************************/
+/*      Meny mellan #header och #middle      */
+/*********************************************/
+nav{
+    clear: both;
+    margin: 0;
+}
+nav ul{  
+    background: #ECF0F3;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+nav ul li{
+    display:inline-block;
+    margin: 0px 15px 0 0 ;
+    background: #00334E;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    font-size: 18px;
+    font-family: Arial, serif;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #B7B3AE;
+}
+.aktiv-link, .aktiv-link a{
+    background: #FF9900;
+    color: #fff;
+}
+#nav-ikon{
+    display: none;
+}
+/*******************************************/
+/*      Stor reklam i index.html bara      */
+/*******************************************/
+#bigimage{
+    clear: both;
+    width: 1000px;
+    margin: 0px;
+    padding: 0px;
+}
+#bigimage img{
+float: right;
+margin: 0px 0px 10px 10px;    
+}
+#bigimage .home-deal{
+    margin: 20px;
+    font-size: 25px;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    color:#fff;
+}
+#bigimage p{
+    margin: 0px 0px 15px 20px; 
+    font-size: 15px;
+    font-family: Arial,sans-serif;
+    color:#fff;
+    padding-left:5px; 
+}
+#bigimage .buynow{
+    float: right;
+    width: 150px;
+    text-align: center;
+    background: #FF9900;
+    padding: 5px;
+    margin-right: 15px;
+}
+#bigimage a{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    
+}
+/******************************/
+/*      Mitters innehåll      */
+/******************************/
+#middle{
+    clear: both;
+    height: 100%;
+    background: #ffffff;
+    margin: 0px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+#middle #leftside{
+    float: left;
+    width: 158px;
+}
+#middle #leftside ul{
+    margin:0px;
+    padding: 5px;    
+}
+#middle #leftside li{
+    display: inline-block;
+    width: 157px;
+    background: #b7b3ae;
+    right:10px;
+    padding: 5px 2px 10px 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    margin-top: 5px;  
+}
+#middle #leftside li a{
+    text-decoration: none;
+    color: #000;
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+}
+#middle #leftside img{
+    clear: both;
+    float: left;
+    padding-top: 15px;
+    padding-left: 7px;
+}
+#middle #rightside{
+    float: right;
+    width: 830px;
+    margin: 0;
+}
+#middle #rightside h1{
+    clear: both;
+    font-size: 26px;
+    margin: 10px 0px 10px 18px;
+    color: #00334E;
+}
+/* forsta paragrafet i #middle  (kontakta.html) */
+#middle #rightside > p{
+    clear: both;
+    font-size: 14px;
+    margin-top: -15px;
+    margin-left: 10px;
+    margin-right: 70px;
+    color: #666666;
+}
+#middle #rightside #produkt-list{
+    clear: both;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+}
+#middle #rightside #produkt-list .box,#middle #related-posts .box{
+	width: 190px;
+    height: 230px;
+	float: left;
+	margin: 0 1% 10px 1%;
+	background: #eee;
+	border: 2px solid #ddd;
+	padding: 10px;
+	font-size: 13px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-shadow: 3px 3px 4px #eee;
+}
+#middle #rightside #produkt-list .box img,#middle #related-posts .box img{
+    float: left;
+    width: 100%;      
+}
+#middle #rightside #produkt-list .pro-title,#middle #related-posts .pro-title{
+    clear: both;
+    text-align: center;
+    padding: 5%;
+    font-size: 15px;
+    font-weight:normal;
+    color: #000000;
+}
+#middle #rightside #produkt-list .pro-price,#middle #related-posts .pro-price{
+    clear: both;
+    float: left;
+    position: relative;
+    margin: 0;  
+    font-size: 20px;
+    color: #FF9900;
+}
+#middle #rightside #produkt-list .buy-btn,#middle #related-posts .buy-btn{
+    float: right;
+    background: #797979;
+    border-radius: 5px;
+    margin-top: 0px;
+    padding: 5px 5px 5px 5px;
+}
+#middle #rightside #produkt-list .buy-btn a,#middle #related-posts .buy-btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+#middle .fri-frakt{
+    margin: 20px;
+    clear: both;
+    background: #EEEEEE;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, serif;
+}
+/*********************/
+/*      FOOTER       */
+/*********************/
+footer{
+    clear: both;
+    width: 100%;
+    background: #00334E;
+    margin: 0px;   
+}
+footer #footer-wrapp{ 
+    clear: both;
+    padding: 10px;
+    margin: 0;
+    color: #fff;
+    font-size: 15px;
+}
+footer #footer-wrapp .payments{
+    float: left; 
+    width: 200px;
+    margin: 10px 10px 10px 27%;
+}
+footer #footer-wrapp .payments + img{
+ width: 60px;  
+ margin: 5px 0 5px 5px;
+}
+footer #footer-wrapp .footer-social{
+    float: left; 
+    width: 200px;
+    margin: 10px;
+}
+footer #footer-wrapp .footer-social img{
+ width: 50px;  
+}
+footer #footer-wrapp .footer-newsletter{
+    float: left; 
+    width: 200px;
+    margin: 10px;
+}
+footer #footer-wrapp .footer-newsletter label{
+    font-size: 13px;
+    float: left;
+    margin-bottom: 5px;
+}
+footer #footer-wrapp .footer-newsletter input[type=email]{
+    height: 30px;
+    width: 190px;
+    border: 1px solid #666;
+    margin: 0 auto;
+}
+footer #footer-wrapp .footer-newsletter input[type=submit]{
+    height: 30px;
+    width: 190px;
+    margin-top: 5px;
+    margin-left: 1px;
+    background: blue;
+    border: 1px solid #666;
+    color: #fff;
+}
+footer #footer-wrapp .footer-adress{
+    float: left; 
+    width: 200px;
+    margin: 10px;
+}
+footer #footer-wrapp .footer-menu{
+    clear: both;
+    margin: 0;
+}
+footer #footer-wrapp .footer-menu ul{
+    margin: 10px;
+    text-align: center;
+}
+footer #footer-wrapp .footer-menu ul li{
+    display: inline-block;
+    border: 1px solid #666;
+    padding: 5px 15px 5px 15px;
+}
+footer #footer-wrapp .footer-menu ul li a{
+    text-decoration: none;
+    color: #B7B3AE;
+    font-family: Arial,sans-serif;
+    font-size: 12px;   
+}
+#footer-wrapp .fot-title{
+    clear: both;
+    float: right;
+    width: 200px;
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial, serif;
+}
+/*********************/
+/*     nyhet.html    */
+/*********************/
+#middle #rightside #produkt-list .large-box{
+    float: left;
+    width: 780px;
+    background: #EEEEEE;
+    padding: 5px 5px 5px 5px;
+    margin:8px;
+    border: 1px solid #000;
+}
+#middle #rightside #produkt-list .large-box img{
+    float: left;
+    width: 160px;
+
+    margin-right:10px;      
+}
+#middle #rightside #produkt-list .large-box h3{
+    margin-top: -20px;
+    margin-bottom: -10px;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+#middle #rightside #produkt-list .large-box ul{
+   margin-top: 5px;
+
+}
+#middle #rightside #produkt-list .large-box ul li{
+    float: left;
+    display: inline-flex;
+    
+}
+#middle #rightside #produkt-list .large-box ul li h1{
+    margin-top: -5px;  
+    font-size: 25px;
+    color: #FF9900;
+}
+#middle #rightside #produkt-list .large-box p{
+    float: none;
+    padding-bottom: 5px;
+    margin-left:170px;
+    border-bottom: 2px solid #000;
+    margin-top:40px;  
+    font-size: 17px;
+    color: #666666;
+}
+#middle #rightside #produkt-list .buy-btn-small{
+    float: left;
+    margin:10px 10px 0px 170px;  
+    background: #797979;
+    border-radius: 5px;
+    padding: 2px 30px 2px 30px;
+    font-size: 20px;
+}
+#middle #rightside #produkt-list .buy-btn-small a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, serif;
+}
+#middle #rightside #produkt-list .more-btn{
+    float: left; 
+    margin-top:10px;
+    background: #b2b0b0;
+    border-radius: 5px;
+    padding: 2px 35px 2px 35px;
+    font-size: 20px;
+}
+#middle #rightside #produkt-list .more-btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, serif;
+}
+/*********************/
+/* PAGING numerik sidor */
+/*********************/
+#middle #pagenumber {
+    clear: both;
+    float: none;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#middle #pagenumber ul {
+    margin: 0;
+    padding: 0;
+}
+#middle #pagenumber li {
+    display: inline-block;
+    padding:5px 10px 5px 10px;  
+    margin-left: 10px;
+    background: #b2b0b0;
+    border-radius: 5px;  
+}
+#middle #pagenumber li a {
+text-decoration: none;
+    color: #fff;
+}
+#middle #pagenumber .active  {   
+    padding:5px 10px 5px 10px;  
+    margin-left: 10px;
+    background: #797979;
+    color: #fff;
+    border-radius: 5px;
+}
+/*********************************/
+/* KUNDSERVICE sida SERVICE.html */
+/*********************************/
+#middle #produkt-list h1{
+    padding-bottom: 5px;
+    color: #FF6600;
+    font-family: Arial, serif;
+    font-size: 24px;
+    font-weight: bold;   
+}
+#middle #produkt-list p{
+    color: #666666;
+    font-family: Arial, serif;
+    font-size: 17px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin-left: 19px;
+}
+/*********************/
+/* Kontakt formulär  */
+/*********************/
+#kontakt-page p{
+    margin: 10px 0px 5px 30px;
+    color: #666666;
+}
+#produkt-list label{
+    margin-top: 10px;
+    color:#666666;
+}
+#produkt-list input[type=text]{
+    position: relative;
+    width: 600px;
+    padding: 12px 20px;
+    margin: -30px 2px 2px 150px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#produkt-list textarea{
+    position: relative;
+    width: 600px;
+    height: 300px;
+    padding: 12px 20px;
+    margin: -30px 2px 2px 150px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#produkt-list input[type=submit] {
+    width: 200px;
+    background-color: #797979;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0px 0px 20px 170px;
+    border: none;
+    border-radius: 4px;
+}
+/********************'********/
+/* allt i produkt-info.html  */
+/*****************************/
+#left-images{
+    width: 380px;
+    float: left;
+    margin: 10px;
+}
+#left-images .bigger-img{
+    float: left;
+    margin: 10px;
+}
+#left-images .smaller-img{
+    clear: both;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+#right-text{
+    margin: 10px;
+}
+#right-text p{
+    padding: 10px;
+}
+#right-text li{
+    display: inline;
+    padding-right: 50px;
+}
+#right-text .lager-compare{
+   font-size: 12px;
+    margin-bottom: 10px;
+}
+#right-text .frakt li{
+   margin-right: 30px; 
+   margin-left: 50px; 
+}
+#right-text .tipsa-social{
+    float: left;
+    margin-top: 80px;
+}
+#right-text .tipsa-social h5{
+    margin: 15px 0 -5px 10px;
+}
+#right-text .add-to-cart{
+    float: right;
+    margin: 0px 20px 0px 0px;
+}
+#right-text .add-to-cart h1{
+    color: #FF9900;
+    text-align: center;
+    font-size: 30px;
+}
+#right-text .add-to-cart h2{
+    padding: 10px;
+    background: #FF9900;    
+}
+#right-text .add-to-cart h2 a{
+    text-decoration: none;
+    color: #FFF;
+    background: #FF9900;    
+}
+#middle  h1{
+    margin-left: 10px;
+    color: #00334E;
+    font-family: Arial,sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+#middle  #related-posts{
+    padding-left: 90px;
+}
+
+/********************'********/
+/* TABS i produkt-info.html  */
+/*****************************/
+.tabs {
+  position: relative;   
+  min-height: 450px; 
+  clear: both;
+  margin: 25px 0;
+}
+.tab {
+  float: left;
+}
+.tab label {
+  background: #eee; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  margin-left: -1px; 
+  position: relative;
+  left: 1px; 
+}
+.tab [type=radio] {
+  display: none;   
+}
+.data {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ccc; 
+}
+.tabs [type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+  z-index: 2;
+}
+.tabs  [type=radio]:checked ~ label ~ .data {
+  z-index: 1;
+}
+/********************'********/
+/* TABELL i produkt-info.html  */
+/*****************************/
+.tabs table, .tabs td,.tabs th {    
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.tabs table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabs table th, .tabs td {
+    padding: 15px;
+}
+.tabs td{
+    background: #ccc;
+}
+/*************************************************/
+/* skriv recention formulär i produkt-info.html  */
+/*************************************************/
+#review-form label{
+    clear: both;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    background: #fff;
+    border: none;
+}
+#review-form input[type=text]{
+    float: left;
+    width: 200px;
+    padding: 12px 20px;
+    margin: 10px 2px 2px 55px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#review-form textarea{
+ float: left;
+    width: 400px;
+    height: 60px;
+    margin: 8px 2px 2px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#review-form input[type=submit] {
+    clear: both;
+    float: left;
+    width: 100px;
+    background-color: #797979;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 0px 0px 145px;
+    border: none;
+    border-radius: 4px;
+}
+/********************'********/
+/* GALLERY i produkt-info.html  */
+/*****************************/
+#gallery {
+  width: 360px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  margin: 0px auto;
+}
+
+#gallery-small-img {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+#gallery-small-img li {
+  padding: 0;
+  margin: 5px;
+  float: left;
+}
+
+#gallery-small-img li a img {
+  display: inline;
+  border: none;
+}
+
+#gallery-small-img li a {
+  display: inline;
+}
+
+#gallery-big-img {
+  width: 359px;
+  height: 248px;
+  overflow: hidden;
+  float: left;
+}
+/*********************************/
+/* formulär i mitt-konto.html   */
+/*******************************/
+#leftlist{
+    width: 500px;
+    float: left;
+    border-right: 2px solid grey;
+    padding: 20px;
+}
+#leftlist a,#leftlist h3{
+    clear: both;
+    float: left;
+    padding: 10px;
+}
+#leftlist a{
+    width: 270px;
+    margin-left: 60px;
+    padding-top: 10px;
+    padding-right: 120px;
+    font-size: 14px;
+    border-bottom: 2px solid grey;
+    padding-bottom: 13px;
+}
+#leftlist h3{
+    padding-left: 15px;
+    font-size: 22px;
+    font-weight: normal;
+    font-family: Arial,sans-serif;
+    
+}
+#rightlist{
+    width: 200px;
+    margin-left: 50px;
+    float: left;
+}
+#rightlist ul li{
+    margin-left: 10px;
+    padding: 10px;
+    list-style-type: none;
+}
+#rightlist h3{
+    padding-left: 15px;
+    font-size: 22px;   
+    font-weight: normal;
+}
+/*********************************/
+/* formulär i kundvagn.html   */
+/*******************************/
+#kundvagn-list{
+    float: left;
+    margin: 20px;
+    margin-left: 8px;
+    width: 800px;
+}
+#kundvagn-list h3{
+    font-size: 20px;
+}
+#kundvagn-list tr > td:last-of-type span {
+    color: #FF9900;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+#kundvagn-list table, #kundvagn-list th {    
+    border-bottom: 2px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #ccc;
+}
+#kundvagn-list td {    
+    border-bottom: 2px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #fff;
+}
+#kundvagn-list tr > th:last-of-type {
+    border-right: 1px solid #ccc;
+}
+#kundvagn-list tr > td:last-of-type {
+    border-right: 1px solid #ccc;
+}
+#kundvagn-list table {
+    border-collapse: collapse; /* man ska inte ha något inners linjer i tabellen */
+    width: 100%;
+}
+
+#kundvagn-list th, #kundvagn-list td {
+    padding: 8px;
+    text-align: center;
+    font-weight: normal;
+}
+#kundvagn-list td{
+    background: #fff;
+}
+#kundvagn-list img {
+    float: left;
+    text-align: center;
+}
+.till-kassa-btn{
+    float: right;
+    margin-right: 21px;
+    margin-bottom: 10px;
+    padding: 8px 50px 8px 50px;
+    background: #FF9900;
+    
+}
+.till-kassa-btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+    
+}
+.fortsatt-handla-btn{
+    float: right;
+    margin-right: 21px;
+    margin-right: 21px;
+    padding: 8px 28px 8px 28px;
+    background: #C0C0C0;
+}
+.fortsatt-handla-btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+}
+/********************'********/
+/* formulär i kassa.html  */
+/*****************************/
+#kundvagn{
+    clear: both;
+    float: left;
+    background: #EEEEEE;
+    width: 95%;
+    margin: 20px;
+}
+#kundvagn label{
+    margin-top: 10px;
+}
+#kundvagn .left-label{
+    float: left;
+    margin-left: 10px;
+    width: 370px;
+}
+#kundvagn .right-label{
+    float: right;
+    margin-right: 15px;
+    width: 370px;
+}
+#kundvagn input[type=text],#kundvagn input[type=password],#kundvagn input[type=email]{
+    float: left;
+    width: 230px;
+    height: auto;
+    padding: 10px 20px;
+    margin: 0px 0px 15px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#kundvagn .obs{
+    clear: both;
+    float: right;
+    margin-right: 92px;
+    
+}
+#kundvagn input[type=submit] {
+    clear: both;
+    float: left;
+    width: 100px;
+    height: 50px;
+    background-color: #797979;
+    color: #fff;
+    margin: 20px 10px 10px 160px;
+    border: 2px solid #353535;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#kundvagn label{
+    clear: both;
+    float: left;
+    width: 200px;
+    font-weight: normal;
+    color: #000000;
+    margin: 2px 0px 2px 10px;
+    font-size: 15px;
+}
+#error{
+    margin: 0 auto;
+    width: 89%;
+    height: 20px;
+    display: block;
+    background-color: orangered;
+    font-size: 18px;
+    text-align:center;
+    padding: 25px;
+    color: white;
+}
+#kundvagn .glomt{
+    clear: both;
+    float: right;
+    width: 180px;
+    margin: -10px 460px 0px 0px;
+    padding: 5px;
+}
+#kundvagn .glomt a{
+ font-size: 15px;
+}
+#kundvagn div +  p{ /* p som är utanför div gäller det sista p om det finns mer än ett p*/
+    float: right;
+    font-size: 13px;
+    color: grey;
+    margin: 50px 130px 0px 0px;
+}
+/*********************************************************/
+/* formulär i kassa.html med div #redan-kund + #ny-kund */
+/*******************************************************/
+#rightside h3,#rightside h5{
+    padding: 20px;
+    font-size: 17px;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    color: #666666;
+}
+#redan-kund,#ny-kund{
+    width: 370px;
+    height: 210px;
+    float: left;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background: #EEEEEE;
+}
+#ny-kund input[type=submit],#ny-kund input[type=radio] ,#ny-kund p {
+    clear: both;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 13px;
+}
+#redan-kund input[type=text],#redan-kund input[type=password]{
+    width: 180px;
+    float:right;
+    padding: 5px;
+    margin: 5px 0px 5px 15px;
+}
+#redan-kund label {
+    clear: both;
+    float:left;
+    padding-right: 5px;
+    margin: 5px;
+}
+#redan-kund span {
+    clear: both;
+    float: right;
+    margin-right: 67px;
+    padding: 0px;
+}
+#redan-kund span:last-child {
+  margin-right: 82px;
+}
+#redan-kund span a { 
+    font-size: 13px;
+}
+#ny-kund label{
+    clear: none;
+    float: left;
+    padding: 5px;
+}
+#redan-kund h5,#redan-kund a,#redan-kund form,#redan-kund input[type=submit]{
+    margin: 11px;
+    padding: 5px;
+}
+#fraktsett,#betalning-alternativ{
+    width: 790px;
+    clear: both;
+    float: left;
+    background: #EEEEEE;
+    padding: 5px 5px 50px 5px;
+    margin: 10px 5px 0px 20px;
+}
+#fraktsett input[type=radio]{
+    clear: both;
+    float: left;
+    margin: 7px 0px 0px 85px;
+    background: #EEEEEE;
+}
+#fraktsett label{
+    float: left;
+    padding: 5px;
+    background: #EEEEEE;
+}
+#betalning-alternativ input[type=radio]{
+    float: left;
+    margin: 7px 8px 0px 85px;
+}
+#betalning-alternativ label{
+    float: left;
+    width: 250px;
+    margin: 0px 0px 5px 0px;
+    padding: 5px 0px 5px 0px;
+    background: #EEEEEE;
+}
+#bekrafta{
+    clear: both;
+    float: left;
+    margin: -10px 0px 0px 12px;
+}

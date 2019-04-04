@@ -1,0 +1,746 @@
+/************************************************************************************
+                                    MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	
+	#pagewrap {
+		width: auto;
+	}
+    	#middle #leftside,#header-cart {
+		display: none;
+	}
+    #header-cart,#logo {
+		width: 25%;
+	}
+    #search  {
+        float: none;
+		width: 88%;
+	}
+    #search input[type=text], #search select,#search input[type=submit]  {
+        float: none;
+        margin: -10;
+        padding: 5px;
+        font-size: 11px;
+	}
+    nav ul li{
+        display:inline-block;
+        margin: 0px 10px 0 0 ;
+        background: #00334E;
+        border-radius: 10px;
+        padding: 5px 10px 5px 10px;
+        font-size: 16px;
+        font-family: Arial, serif;
+}
+    #bigimage img{
+		width: 50%;
+        height: auto;
+        margin: 0;
+	}
+    #bigimage .buynow{
+		width: auto;
+        margin: 10px;
+	}
+    #bigimage h1 {
+		font-size: 20px;
+        margin: 5px 0px 5px 20px;
+	}
+        #bigimage,#middle #rightside {
+		width: 100%;
+        margin: 0;
+	}
+        #rightside input[type=text], #rightside input[type=submit],  #rightside textarea  {
+        clear: left;
+        float: none;
+        width: 97%;
+        margin: 10px;
+        padding: 5px;
+        font-size: 11px;
+	}
+#rightside textarea  {
+        height: 100px;
+
+	}
+}
+  /**************************************************************************/
+ /*****************  *******************************************************/
+ /***************** ipad **************************************************/
+/**************************************************************************/
+@media screen and (max-width: 768px) {
+	
+	#pagewrap {
+		width: auto;
+	}
+    	#middle #leftside,#header-cart {
+		display: none;
+	}
+    #header-cart,#logo {
+		width: 25%;
+	}
+    #search{
+        width: auto;
+        float: right;
+        margin: 15px;
+    }
+    #search input[type=text], #search select,#search input[type=submit]  {
+        float: none;
+        width: auto;
+        height: auto;
+        margin: 1px;
+        padding: 5px;
+        font-size: 11px;
+	}
+    #search input[type=text], #search select  {
+        background: #fff;
+	}
+    nav ul li{
+    display:inline;
+    margin: 0px 8px 0 0 ;
+    background: #00334E;
+    border-radius: 10px;
+    padding: 5px 5px 5px 10px;
+    font-size: 10px;
+    font-family: Arial, serif;
+}
+    #bigimage img{
+		width: 50%;
+        height: auto;
+        margin: 0;
+	}
+    #bigimage .buynow{
+		width: auto;
+        margin: 10px;
+	}
+    #bigimage h1 {
+		font-size: 20px;
+        margin: 5px 0px 5px 20px;
+	}
+        #bigimage,#middle #rightside {
+		width: 100%;
+        margin: 0;
+	}
+     /***************** kassa.html *************/
+    #redan-kund,#ny-kund{
+        clear: both;
+        float: right;
+        margin-bottom: 5px;
+        width: 95%;
+        height: auto;
+        font-size: 12px;
+    }
+    #kundvagn{
+        clear: both;
+        float: right;
+        margin-bottom: 5px;
+        width: 95%;
+    }
+    #fraktsett,#betalning-alternativ{
+        clear: both;
+        float: right;
+        margin: 0px 0px 5px 10px;
+        width: 95%;
+    }
+    #bekrafta{
+        clear: right;
+        float: none;
+        margin: 10px;
+        width: 95%;
+    }
+    #rightside input[type=text], #rightside input[type=radio],#rightside input[type=password],#rightside select,#rightside input[type=email],#rightside #kundvagn,#kundvagn .right-label,#kundvagn .left-label{      
+        clear: left;
+        float: left;
+        width: 97%;
+        height: 100%;
+        margin: 10px;
+        padding: 5px;
+        font-size: 12px;
+    }
+    #rightside #betalning-alternativ label, #rightside #fraktsett label,#ny-kund label{      
+        clear: both;
+        float: left;
+        width: auto;
+        height: auto;
+        margin-top: -25px;
+        padding: 5px;
+        font-size: 12px;
+    }
+    #rightside #kundvagn-list{
+        
+        clear: left;
+        float: left;
+        width: 93%;
+        height: 100%;
+        margin: 2px;
+        padding: 2px;
+        font-size: 12px;
+    }
+    #rightside input[type=submit]{
+        
+        clear: both;
+        float: left;
+        width: 85%;
+        height: auto;
+        margin: 10px;
+        padding: 5px;
+        font-size: 12px;
+    }
+    #rightside .redan-kund-btn{ 
+        clear: both;
+        float: none;
+        width: 95%;
+
+    }
+
+}
+  /**************************************************************************/
+ /***************** media queries for iphone 6 plus and 7 plus *************/
+ /***************** media queries for samsung 6 plus and edge *************/
+/**************************************************************************/
+@media only screen and (max-width: 480px) 
+{ /* STYLES GO HERE */
+	#middle {
+		width: auto;
+		margin-top: 10px;
+        border-radius: 5px;
+	}
+     /***************** produkt-info.html *************/
+    #middle #left-images,#middle #right-text{
+        clear: both;
+        float: left;
+        width: auto;
+        
+    }
+    #middle #right-text p{
+        font-size: 14px;
+        
+    }
+    #middle #right-text .lager-compare{
+         text-align: center;    
+    }
+    #middle #right-text .frakt li{
+         margin-right: 10px; 
+         padding: 10px;
+    }
+    #middle #right-text .tipsa-social{
+         clear: both;
+         float: left;
+         margin: 5px; 
+         padding: 5px;
+    }
+    #middle #right-text .add-to-cart{
+         clear: both;
+         float: none;
+         width: 100%;
+         margin: 5px; 
+         padding: 5px;
+    }
+        #middle .tabs{
+        font-size: 12px;
+    }
+    #middle .tabs input[type=text],#middle .tabs label{
+        margin: 0px;
+        width: 83%;
+    }
+    #middle .tabs textarea {
+        width: 95%;
+        margin: 0px;
+    }
+    #middle .tabs input[type=submit]{
+        width: 50%;
+        float: left;
+        padding: 10px;
+        margin: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+    /***************** kassa.html *************/
+    #redan-kund,#ny-kund{
+        clear: both;
+        float: right;
+        margin-bottom: 5px;
+        width: 91%;
+    }
+    #kundvagn{
+        clear: both;
+        float: right;
+        margin-bottom: 5px;
+        width: 96%;
+    }
+    #fraktsett,#betalning-alternativ{
+        clear: both;
+        float: right;
+        margin: 0px 0px 5px 10px;
+        width: 93.5%;
+    }
+    #bekrafta{
+        clear: right;
+        float: none;
+        margin: 10px;
+        width: 102%;
+    }
+    /***************** kundvagn.html *************/
+    #kundvagn-list{
+    float: right;
+    margin-bottom: 10px;
+    width: 94%;
+}
+    #rightside .till-kassa-btn {
+        clear: both;
+        float: right;
+        width: auto;
+        text-align: center;
+    }
+    
+    .till-kassa-btn a{
+        font-size: 16px;
+    
+    }
+    .fortsatt-handla-btn{
+        float: right;
+        width: 30%;
+        margin: 0px 15px 5px 0px;
+    
+    }
+    .fortsatt-handla-btn a{
+        font-size: 16px;
+    
+    }
+     /***************** mitt-konto.html *************/
+    #rightlist{
+        display: none;
+    }
+        #leftlist h3,#leftlist a,#leftlist{
+         width: 75%;
+         margin: 0px;
+         border-right: 0;
+         border-bottom-width: thin;
+         font-size: 17px;
+    }
+    /***************** produkt-info.html *************/
+    #produkt-list label{
+        width: 90%;
+        float: none;
+        margin: 0px;
+    }
+    #produkt-list input[type=text]{
+        width: 99%;
+        float: right;
+        margin: 10px;
+    }
+    #produkt-list textarea{
+        width: 99%;
+        float: right;
+        margin: 10px;
+
+    }
+    #produkt-list input[type=submit] {
+        width: 90%;
+        float: none;
+        margin: 10px;
+        font-size: 17px;
+    }
+         /***************** header *************/
+    #top-nav li{
+        margin: 1px;
+        padding: 5px 0px 5px 0px;
+        width: 100%;  
+        text-align: center;
+    }
+        nav li {
+        width: 89%;       
+    }
+    #middle #leftside,#search,#bigimage,#header-cart{
+		display: none;
+    }
+         /***************** index.html mitters *************/
+    #middle #rightside{
+        width: auto;
+    }
+        .logo{
+        margin: 10px 10px 10px 90px;
+        padding: 0;
+       -webkit-transform: scale(1.6);
+        transform: scale(1.6); /* you can change the value also */
+       -webkit-transform-origin: center;
+        transform-origin: center;
+    }
+    #middle #rightside h1{
+        font-size: 17px;
+        font-weight: bold;
+        margin: 0;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    /***************** nyhet.html *************/
+    #middle #rightside #produkt-list .large-box{
+        width: auto;
+        margin-bottom: 5px;
+        margin-right: 20px;
+
+    }
+    #middle #rightside #produkt-list .large-box p{
+        font-size: 12px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #797979;
+
+    }
+    #middle #rightside #produkt-list .buy-btn-small{
+    float: none;
+    margin-left:60px;  
+    background: #797979;
+    border-radius: 5px;
+    font-size: 15px;
+}
+    #middle #rightside #produkt-list .buy-btn-small a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, serif;
+}
+    #middle #rightside #produkt-list .more-btn{
+    float: none; 
+    margin:0 auto;
+    background: #b2b0b0;
+    border-radius: 5px;
+    font-size: 15px;
+}
+         /***************** box modeller *************/
+    #middle #rightside #produkt-list .box,#middle #related-posts .box{
+        width: 47%;
+        height: auto;
+        margin: 1px;
+       -webkit-transform: scale(0.9);
+        transform: scale(0.9); /* you can change the value also */
+       -webkit-transform-origin: center;
+        transform-origin: center;
+    }
+    /***************** logo och meny *************/
+    #logo{
+        width: 100%;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    nav ul{
+        display: none;
+        background: none;
+        float: right;
+    }
+    #top-nav{
+        display: none;
+    }
+
+    nav ul li{
+    display:inline-block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: Arial, serif;
+    text-align: center;
+}
+         /***************** footer *************/
+    footer #footer-wrapp .payments{
+        width: auto;
+        margin: 0px;
+        padding-left: 11px;
+    }
+    #nav-ikon{
+        display: block;
+        float: right;
+    }
+}
+
+  /**************************************************************************/
+ /***************** media queries for iphone 5 and 5s ***********************/
+ /***************** media queries for iphone samsung 3  ****************/
+/**************************************************************************/
+@media only screen and (max-width: 320px) 
+{ /* STYLES GO HERE */
+	#middle {
+		width: 0 auto;
+		margin-top: 10px;
+        border-radius: 5px;
+	}
+     /***************** produkt-info.html  ****************/
+        #middle #left-images,#right-text{
+        clear: both;
+        float: left;
+        width: auto;
+        
+    }
+        #middle #right-text p{
+        font-size: 12px;
+        
+    }
+        #middle #right-text .lager-compare{
+         text-align: center;    
+    }
+        #middle #right-text .frakt li{
+         margin-right: 5px; 
+         padding: 5px;
+    }
+        #middle #right-text .tipsa-social{
+         clear: both;
+         float: left;
+         margin: 5px; 
+         padding: 5px;
+    }
+        #middle #right-text .add-to-cart{
+         clear: both;
+         float: none;
+         width: 80%;
+         margin: 20px; 
+         padding: 5px;
+    }
+    #middle .tabs, #middle .tabs .tab label{
+        width: 94%;
+        font-size: 10px;
+        padding: 2px;
+        margin: 1px;
+    }
+       #middle .tabs input[type=text]{
+        margin: 0px;
+        width: 82%;
+        font-size: 15px;
+    }
+
+    #middle .tabs textarea {
+        width: 100%;
+        margin: 0px;
+    }
+    #middle .tabs input[type=submit]{
+        width: 30%;
+        float: left;
+        margin: 10px;
+        font-size: 16px;
+        text-align: center;
+    }
+        #gallery #gallery-big-img img{
+         width: 80%;
+         margin-bottom: 50px; 
+         padding: 0;
+    }
+    #gallery #gallery-small-img img{
+         width: 45%;
+         margin-left: 0px; 
+         padding: 0;
+    }
+     /***************** kassa.html  ****************/
+        #middle #redan-kund,#middle #ny-kund{
+        float: right;
+        width: 65%;
+            height: auto;
+            padding: 5px;
+            margin: 5px;
+    }
+        #kundvagn{
+        clear: both;
+        float: right;
+        margin: 5px;
+        width: 67.5%;
+    }
+        #kundvagn .right-label input[type=text],#kundvagn .right-label label {
+        clear: both;
+        float: right;
+        width: 68%;
+        margin: 0px 10px 10px 10px;
+    }
+        #kundvagn .left-label input[type=text],#kundvagn .left-label label,#kundvagn input[type=email] {
+        clear: both;
+        float: left;
+        width: 68%;
+        margin-left: 7px;
+    }
+
+        #fraktsett,#betalning-alternativ{
+        float: right;
+        margin: 0px 5px 5px 0px;
+        width: 65%;
+    }
+         #betalning-alternativ input[type=radio],#betalning-alternativ label{
+        float: left;
+        margin: 10px;
+        width: 30%;
+    }
+    #bekrafta #kundvagn-list{
+        clear: both;
+        float: right;
+        width: 46%;
+        margin-right: 110px;
+        margin-top: 10px;
+    }
+    #rightside .till-kassa-btn {
+        clear: both;
+        float: right;
+        text-align: center;
+    }
+     /***************** kundvagn.html  ****************/
+        #kundvagn-list{
+        clear: both;
+        float: none;
+        width: auto;
+        margin: 0px;
+}
+        #kundvagn-list td img{
+        display: none;
+    }
+        #kundvagn-list tr th{
+        border: 0;
+        font-size: 11px;
+    }
+        #kundvagn-list tr td h3{
+        font-size: 12px;
+    }
+        .till-kassa-btn{
+        float: right;
+        width: 30%;
+        margin: 5px 10px 5px 15px;
+        padding: 5px 5px 5px 5px;
+    }
+        .till-kassa-btn a{
+        font-size: 12px;
+
+    }
+        .fortsatt-handla-btn{
+        float: left;
+        width: 30%;
+        margin: 5px 5px 5px 20px;
+        padding: 5px 5px 5px 5px;
+    
+    }
+        .fortsatt-handla-btn a{
+        font-size: 12px;
+    
+    }
+     /***************** mitt-konto.html  ****************/
+        #rightlist{
+        display: none;
+    }
+        #leftlist h3,#leftlist a,#leftlist{
+        width: 68%;
+        margin: 0px;
+        border-right: 0;
+        border-bottom-width: thin;
+        font-size: 14px;
+    }
+     /***************** produkt-info.html  ****************/
+    #produkt-list label{
+        width: 99%;
+        float: none;
+        margin: 0px;
+    }
+    #produkt-list input[type=text]{
+        width: 99%;
+        float: right;
+        margin: 10px;
+    }
+    #produkt-list textarea{
+        width: 99%;
+        float: right;
+        margin: 10px;
+
+    }
+    #produkt-list input[type=submit] {
+        width: 90%;
+        float: none;
+        margin: 10px;
+        font-size: 17px;
+    }
+     /***************** nyhet.html  ****************/
+    #middle #rightside #produkt-list .large-box{
+        width: 91%;
+        margin-bottom: 5px;
+        margin-right: 20px;
+
+    }
+     #middle #rightside #produkt-list .large-box p{
+        font-size: 11px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #797979;
+
+    }
+    #middle #rightside #produkt-list .large-box h3{
+        font-size: 15px;
+
+    }
+    #middle #rightside #produkt-list .buy-btn-small{
+    float: none;
+    width:auto;
+    margin-left:30px;  
+    background: #797979;
+    border-radius: 5px;
+    font-size: 14px;
+    }
+    #middle #rightside #produkt-list .buy-btn-small a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, serif;
+    }
+    #middle #rightside #produkt-list .more-btn{
+    float: none; 
+    margin:0 auto;
+    background: #b2b0b0;
+    border-radius: 5px;
+    font-size: 14px;
+    }
+     /***************** header  ****************/
+    #top-nav li{
+        margin: 1px;
+        padding: 5px 0px 5px 0px;
+        width: 100%;  
+        text-align: center;
+    }
+        nav li {
+        width: 89%;       
+    }
+    #middle #leftside,#search,#bigimage,#header-cart{
+		display: none;
+    }
+    #middle #rightside{
+        width: auto;
+    }
+        .logo{
+        margin: 10px 10px 10px 60px;
+        padding: 0;
+       -webkit-transform: scale(1.4);
+        transform: scale(1.4); 
+       -webkit-transform-origin: center;
+        transform-origin: center;
+    }
+ /***************** index.html boxar ****************/
+    #middle #rightside h1{
+        font-size: 17px;
+        font-weight: bold;
+        margin: 0;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    #middle #rightside #produkt-list .box{
+        width: 85%;
+        height: auto;
+        margin: 1px;
+       -webkit-transform: scale(0.9);
+        transform: scale(0.9); 
+       -webkit-transform-origin: center;
+        transform-origin: center;
+    }
+    #middle #related-posts .box{
+        float: left;
+        width: 105%;
+        height: auto;
+        margin-left: -25%;
+       -webkit-transform: scale(1.5);
+        transform: scale(1.0); 
+       -webkit-transform-origin: center;
+        transform-origin: center;
+    }
+     /***************** logo och meny  ****************/
+    #logo,#top-nav{
+        width: 100%;
+        margin-left: 0px;
+        padding: 0px;
+    }
+     /***************** footer  ****************/
+    footer #footer-wrapp .payments{
+        width: auto;
+        margin: 0px;
+        padding-left: 11px;
+    }
+}

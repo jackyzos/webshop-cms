@@ -1,0 +1,148 @@
+body{
+   background-color: cadetblue;
+}
+section a{
+    text-decoration: none;
+    color: saddlebrown;
+    font-size: 18px;
+    background-color: gainsboro;
+} 
+#pagewrapper{
+    width: 1030px;
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+header{
+    width: 96.5%;
+    height: auto;
+    margin-bottom: 5px ;
+    margin-left: 5px ;
+    padding: 15px;
+    background-color: bisque;
+    
+}
+header li{
+    float: right;
+    margin: -40px 5px 15px 5px;
+    list-style-type: none;
+    background-color: coral;
+    padding: 5px;
+}
+header h1{
+    color: coral;
+    font-family: sans-serif;
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+
+} 
+section{
+    width: 807px;
+    height: auto;
+    background-color: aliceblue;
+    float: left;
+    padding-right: 12px;
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+
+}
+aside{
+    width: 200px;
+    height: 800px;
+    background-color: ;
+    float: left;
+    margin-right: 5px ;
+    
+}
+footer{
+    height: 100px;
+    background-color: coral;
+    clear: both;
+    margin-top: 5px ;
+}
+th {
+        border: 1px solid black;
+        text-align: center;
+        background-color:  #CCCCCC;
+}
+td {
+        border: 1px solid black;
+        text-align: center;
+}
+table {
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+}ul{
+    margin: auto;
+    padding: 0;
+}
+aside li{
+    list-style-type: none;
+    background-color: cadetblue;
+    width: 95%;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+aside li a{
+    text-decoration: none;
+    color: saddlebrown;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 24px;
+    background-color: gainsboro;
+} 
+footer{
+    height: 30px;
+    width: 98.7%;
+    margin: 0 auto;
+    padding-top: 5px;
+    background-color: coral;
+}
+footer p{
+    font-size: 18px;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    color: aliceblue;
+    
+}
+#user-form{
+    
+}
+input[type=text],input[type=password],input[type=email],input[type=file],select,option {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+textarea{
+    width: 100%;
+    height: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    background-color: coral;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+label{
+    color: black;
+    padding: 0px 0px;
+    font-size: 18px;
+}
